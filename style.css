@@ -45,6 +45,10 @@ a:visited{
 color: chartreuse;
 } 
 
+.clr{
+    clear: both;
+}
+
 .button{
 background-color: #333;
 color: #fff;
@@ -138,8 +142,88 @@ padding: 8px;
 width: 100%;
 }
 
+.block{
+    float: left;
+    width: 33%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
+.block:hover{
+    border: 1px solid #e0ae0a;
+    background-color: #ccc;
+}
+#main-block{
+float: left;
+width: 70%;
+}
+.clr{
+    clear: both;
+    
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #555;
+    color: #e0d9d9;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    background-color: #555;
+    height: 500px;
+    width: 800%;
+    color: #fff;
+    border: 1px solid white;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(/matt-seymour-14TSgjygsME-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover ;
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    top: 250px;
+    bottom: 250px;
+    left: 250px ;
+    right: 250px;
+}
+.fix-me{
+    position: fixed;
+    top:700px ;
+    right: 0;
+    border-radius: 50%;
+    background-color: aqua;
+    color: #333;
+}
 
-
-
+.my-list li:first-child{
+background: #d64908;
+}
+.my-list li:nth-child(2){
+    background: #c6db07f4;
+}
+.my-list li:nth-child(3){
+    background: #d64908;
+}
+.my-list li:nth-child(4){
+    background: #c6db07f4;
+}
+.my-list li:nth-child(5){
+    background: #d64908;
+}
+.my-list li:nth-child(6){
+    background: #c6db07f4;
+}
+.my-list li:nth-child(7){
+    background: #d64908;
+}
+.my-list li:last-child{
+    background: #d8db07f4;
 
