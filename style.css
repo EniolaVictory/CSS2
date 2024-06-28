@@ -33,7 +33,7 @@ text-decoration: none;
 color: black;
 }
 
-a;:hover{
+:hover{
 color: red;
 }
 
@@ -155,44 +155,51 @@ width: 100%;
     background-color: #ccc;
 }
 #main-block{
-float: left;
-width: 70%;
+ float: left;
+ width: 65%;
 }
-.clr{
-    clear: both;
-    
+
+
 #sidebar{
     float: right;
-    width: 30%;
+    width: 35%;
     background-color: #555;
     color: #e0d9d9;
     padding: 15px;
     box-sizing: border-box;
 }
+
+#sidebar:hover{
+border: #d64908;
+background-color: #555;
+color: #ccc;
+}
+
 .p-box{
     background-color: #555;
     height: 500px;
-    width: 800%;
+    width: 80px;
     color: #fff;
     border: 1px solid white;
-    margin-top: 30px;
+    padding-top:  30px;
     position: relative;
-    background-image: url(/matt-seymour-14TSgjygsME-unsplash.jpg);
+    background-image: url(/);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover ;
 }
+
 .p-box h1{
     position: absolute;
     top: 100px;
     left: 200px;
 }
+
 .p-box h2{
     position: absolute;
-    top: 250px;
-    bottom: 250px;
-    left: 250px ;
-    right: 250px;
+    top: 200px;
+    left: 400px ;
+
 }
 .fix-me{
     position: fixed;
@@ -224,6 +231,8 @@ background: #d64908;
 .my-list li:nth-child(7){
     background: #d64908;
 }
-.my-list li:last-child{
-    background: #d8db07f4;
+.my-list li:last-child(8){
+    background: #c6db07f4;  
+}
+
 
