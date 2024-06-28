@@ -231,7 +231,7 @@ background: #d64908;
 .my-list li:nth-child(7){
     background: #d64908;
 }
-.my-list li:last-child(8){
+.my-list li:last-child{
     background: #c6db07f4;  
 }
 
