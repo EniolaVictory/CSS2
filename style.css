@@ -157,6 +157,7 @@ width: 100%;
 #main-block{
  float: left;
  width: 65%;
+
 }
 
 
@@ -178,14 +179,14 @@ color: #ccc;
 .p-box{
     background-color: #555;
     height: 500px;
-    width: 80px;
+    width: 800px;
     color: #fff;
     border: 1px solid white;
     padding-top:  30px;
     position: relative;
-    background-image: url(/);
+    background-image: url(/matt-seymour-14TSgjygsME-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:center center;
     background-size:cover ;
 }
 
@@ -197,7 +198,7 @@ color: #ccc;
 
 .p-box h2{
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 400px ;
 
 }
